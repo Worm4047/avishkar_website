@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.web3canvas.com	TRUE	/	FALSE	1999999999	__cfduid	d51ddaa288f14a282fee1867b7784fa8d1504974567
+.paypalobjects.com	TRUE	/	FALSE	1999999999	PYPF	CT
+
