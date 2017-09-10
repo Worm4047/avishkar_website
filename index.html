@@ -26,7 +26,6 @@
       <link href="css/demo.css" rel="stylesheet">
 
       <!-- TRIANGLES -->
-      		<link href="Triangles/assets/css/triangle_bootstrap.min.css" rel="stylesheet" type="text/css"/>		
         <link href="Triangles/assets/fonts/triangle_themify-icons.css" rel="stylesheet" type="text/css"/>
       <link href="Triangles/assets/css/triangle_style.css" rel="stylesheet" type="text/css"/>
 	<link href="Triangles/assets/css/triangle_animation.css" rel="stylesheet" type="text/css"/>
@@ -288,13 +287,7 @@
                            <span class="date wow flipInX" data-wow-delay="0.3s">03:00 PM</span>
                         </div>
                      </div>
-                     <div class="timeline-block">
-                        <div class="timeline-bullet wow zoomIn" data-wow-delay="0s"></div>
-                        <div class="timeline-content">
-                           <h2 class="wow flipInX" data-wow-delay="0.3s"> Closing Thoughts</h2>
-                           <span class="date wow flipInX" data-wow-delay="0.3s">06:00 PM</span>
-                        </div>
-                     </div>
+
                   </section>
                </div>
                <div role="tabpanel" class="tab-pane" id="day2">
@@ -500,7 +493,7 @@
             </div>
          </div>
       </section>
-      <section class="highlight accommodation">
+<!--       <section class="highlight accommodation">
          <div class="container">
             <div class="section-title wow fadeInUp">
                <h4>Where to stay</h4>
@@ -539,8 +532,8 @@
                </div>
             </div>
          </div>
-      </section>
-      <section class="pricing" id="pricing">
+      </section> -->
+<!--       <section class="pricing" id="pricing">
          <div class="container">
             <div class="section-title">
                <h4>PRICING</h4>
@@ -588,7 +581,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
       <section class="faq">
          <div class="container">
             <div class="section-title">
@@ -625,6 +618,81 @@
                <div><img src="images/sponsor_2.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_3.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_4.png" class="img-responsive center-block" alt="sponsor"> </div>
+            </div>
+         </div>
+      </section>
+<!--       <div class="highlight">
+         <div class="container">
+            <div class="row">
+               <form action="https://demo.web3canvas.com/themeforest/gather/php/subscribe.php" method="post" class="form subscribe-form" id="subscribeform">
+                  <div class="form-group col-md-3 hidden-sm">
+                     <h6 class="susbcribe-head wow fadeInLeft"> SUBSCRIBE <small>TO OUR NEWSLETTER</small></h6>
+                  </div>
+                  <div class="form-group col-sm-8 col-md-6 wow fadeInRight">
+                     <label class="sr-only">Email address</label>
+                     <input type="email" class="form-control input-lg" placeholder="Enter your email" name="email" id="email" required>
+                     <div id="js-subscribe-result" class="text-center" data-success-msg="Almost finished. Please check your email and verify." data-error-msg="Oops. Something went wrong."></div>
+                  </div>
+                  <div class="form-group col-sm-4 col-md-3">
+                     <button type="submit" class="btn btn-lg btn-success btn-block" id="js-subscribe-btn">Subscribe Now →</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div> -->
+      <div class="g-maps" id="venue">
+         <div class="map" id="map_canvas" data-maplat="59.3292956" data-maplon="18.0686451" data-mapzoom="2" data-color="green" data-height="400" data-img="images/marker.png" data-info="Stockholm, Sweden"></div>
+      </div>
+      <section id="directions" class="directions vertical-space-lg">
+         <div class="container">
+            <div class="section-title wow fadeInUp top-space-sm">
+               <h4>GET DIRECTIONS</h4>
+               <p>Fill the form below to get directions to our event location</p>
+            </div>
+            <div class="row">
+               <div class="col-sm-6">
+                  <form action="https://demo.web3canvas.com/routebeschrijving" onSubmit="calcRoute();return false;" id="routeForm">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <label for="routeStart">Direction From:</label>
+                              <input type="text" id="routeStart" class="form-control" placeholder="Gothenburg">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <label for="routeVia">Via<small>(Optional)</small> </label>
+                              <input type="text" class="form-control" id="routeVia" value>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <label class="sr-only">Travel mode:</label>
+                        <label class="radio-inline" for="travelMode1">
+                        <input type="radio" name="travelMode" id="travelMode1" value="DRIVING" checked/> Driving
+                        </label>
+                        <label class="radio-inline" for="travelMode2">
+                        <input type="radio" name="travelMode" id="travelMode2" value="BICYCLING"/> Bicylcing
+                        </label>
+                        <label class="radio-inline" for="travelMode3">
+                        <input type="radio" name="travelMode" id="travelMode3" value="TRANSIT"/> Public transport
+                        </label>
+                        <label class="radio-inline" for="travelMode4">
+                        <input type="radio" name="travelMode" id="travelMode4" value="WALKING"/> Walking
+                        </label>
+                     </div>
+                     <div class="form-group text-center">
+                        <button type="submit" class="btn btn-success btn-block"><i class="fa fa-location-arrow"></i> Get Directions </button>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-sm-6">
+                  <div class="directions-results">
+                     <div id="directionsPanel">
+                        <div class="direction-text">Enter Direction from and Travel Mode from the left form to see directions. </div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </section>

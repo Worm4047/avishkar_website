@@ -512,9 +512,12 @@
 		VERTICAL ALIGN	
 	**************************************/
 
-		section
+		#main
 		{
-			height: 100vh;
+			height: 70vh;
+		}
+		.schedule{
+			height:100%;
 		}
 
 		#main, #contact, #subscribe
