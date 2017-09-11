@@ -9,11 +9,12 @@
 .myh4{
     font-family: 'Bungee Shade', cursive;
 }
-         
+
 
 body,
 html {
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 body {
     font-family: 'Open Sans', Arial, sans-serif;
