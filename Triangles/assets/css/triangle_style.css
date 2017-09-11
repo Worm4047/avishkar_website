@@ -524,6 +524,9 @@
 		{
 			display: table;
 			z-index: 1;
+			    align-content: center;
+    align-items: center;
+    text-align: center;
 		}
 
 		.vcenter 

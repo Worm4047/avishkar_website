@@ -9,8 +9,7 @@
 .myh4{
     font-family: 'Bungee Shade', cursive;
 }
-
-
+         
 
 body,
 html {
@@ -89,6 +88,7 @@ h6 {
 p,
 .lead {
     line-height: 1.7;
+
 }
 .btn {
     border-radius: 3px;
@@ -652,11 +652,12 @@ p,
     margin-right: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
+    background: #2e7d32;
 }
 #countdown li span {
     font-size: 40px;
     font-weight: bold;
-    color: #3b3b3b;
+    color: #fff;
     height: 108px;
     line-height: 1.0;
     position: relative;
@@ -664,12 +665,14 @@ p,
 }
 #countdown li p {
     margin-top: 5px;
-    color: #8a8a8a;
+    color: #fff;
     text-transform: uppercase;
     font-size: .875em;
 }
 .countdown_title {
     margin: 20px 0;
+    color:#4eae49;
+    font-weight: 500;
 }
 .addtocalendar var {
     display: none;
@@ -784,7 +787,7 @@ p,
     overflow: auto;
 }
 .highlight {
-    background: #f1f1f1;
+    background: url('../images/highlight.jpg');
     padding: 30px 0;
 }
 .section-title {
@@ -935,7 +938,8 @@ p,
 }
 .timeline-content p,
 .timeline-content .date {
-    font-size: 13px;
+    font-size: 15px;
+    color:black;
 }
 .timeline-content .date {
     display: inline-block;
@@ -951,9 +955,8 @@ p,
 .timeline-content .date {
     float: left;
     padding: 0;
-    opacity: .7;
     font-weight: 600;
-    color: #717171;
+    color: black;
 }
 @media only screen and (min-width: 768px) {
     .timeline-content {

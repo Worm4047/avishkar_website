@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed', {
     //stringsElement: '#typed-strings',
-    strings: ['<p class="typedstrings">Idea</p>','<p class="typedstrings">Innovate</p>','<p class="typedstrings">Create</p>','<p class="typedstrings">Idea.Innovate.Create</p>'],
+    strings: ['<p class="typedstrings">Ideate</p>','<p class="typedstrings">Innovate</p>','<p class="typedstrings">Create</p>','<p class="typedstrings">Ideate.Innovate.Create</p>'],
     typeSpeed: 20,
     backSpeed: 20,
     startDelay: 1000,
