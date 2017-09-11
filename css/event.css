@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+
+.typedstrings{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 50px;
+}
+.myh4{
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+
 body,
 html {
     overflow-x: hidden;
@@ -518,7 +532,7 @@ p,
     top: 0;
 }
 .header.parallax-bg {
-    background: url('../images/parallax-bg.jpg') no-repeat center top;
+    background: transparent;
     background-size: cover;
     background-attachment: fixed;
 }

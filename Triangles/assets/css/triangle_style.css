@@ -671,7 +671,7 @@
 
 		body, html
 		{
-			overflow: hidden;
+			
 		}
 
 		/**	LOGO			
@@ -1079,7 +1079,7 @@
 			html,
 			body
 			{
-				overflow: auto;
+				
 			}
 
 			/**************************************

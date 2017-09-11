@@ -32,6 +32,8 @@
 
       <script src="js/modernizr.min.js"></script>
       <script src="js/plugins/pace.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/demos.js"></script>
    </head>
    <body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
       		<div class="preloader"></div>
@@ -84,7 +86,9 @@
             </div>
          </div>
       </nav>
-		<div class="container-fluid">
+
+      
+		<div class="container-fluid" style="height: 780px">
 
 			<!-- ROW -->
 			<div class="row">	
@@ -101,14 +105,9 @@
 
 						<!-- SLIDER AREA -->
 						<div id="slider" class="carousel slide" data-ride="">
-							<div class="carousel-inner" role="listbox">
-								<!-- SLIDE 1 -->
-								<div class="item active"> <h2>Clean & <br>Responsive<br>Design</h2> </div>
-								<!-- SLIDE 2 -->	
-								<div class="item"> <h2> Style & <br>Good Coding<br>Guarantee</h2> </div>
-								<!-- SLIDE 3 -->	
-								<div class="item"> <h2>New & <br>Experimental<br>Look</h2> </div>						
-							</div>
+							<div id="typed-strings">
+                     </div>
+                     <span id="typed"></span>
 						</div>
 						<!-- /SLIDER-->	
 
@@ -132,6 +131,8 @@
 			</div>
 			<!-- ./ROW -->	
 		</div>
+  
+
       <section class="highlight">
          <div class="container">
             <p class="lead text-center">Gather is a responsive website template for events, conferences, meetups, webinars etc. This template can be used of all type of gatherings. It has many features specifically designed for events like RSVP, Eventbrite Integration, Subscribe and contact. it also comes with different color versions to choose.</p>
@@ -162,7 +163,7 @@
       <section class="speakers" id="speakers">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4>OUR SPEAKERS</h4>
+               <h4 class="myh4">OUR SPEAKERS</h4>
             </div>
             <div class="speaker-slider">
                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
@@ -216,7 +217,7 @@
       <section class="schedule" id="schedule">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4>THE SCHEDULE</h4>
+               <h4 class="myh4">THE SCHEDULE</h4>
             </div>
             <div class="nav-center">
                <ul class="nav nav-pills" role="tablist" id="schedule-tabs">
@@ -452,7 +453,7 @@
       <section class="benefits">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4>WHAT TO EXPECT</h4>
+               <h4 class="myh4">WHAT TO EXPECT</h4>
             </div>
             <div class="row">
                <div class="col-md-10 col-md-offset-1">
@@ -524,7 +525,7 @@
       <section class="gallery" id="gallery">
          <div class="container">
             <div class="section-title">
-               <h4>GALLERY</h4>
+               <h4 class="myh4">GALLERY</h4>
             </div>
             <div class="nav-center bottom-space-lg">
                <ul class="nav nav-pills" role="tablist">
@@ -672,7 +673,7 @@
       <section class="faq">
          <div class="container">
             <div class="section-title">
-               <h5>Frequently Asked Questions</h5>
+               <h5 class="myh4">Frequently Asked Questions</h5>
             </div>
             <div class="row">
                <div class="col-md-6 wow fadeInLeft" data-wow-duration="2s">
@@ -693,7 +694,7 @@
       <section class="sponsors" id="sponsors">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4>OUR SPONSORS</h4>
+               <h4 class="myh4">OUR SPONSORS</h4>
                <p>Event is supported by easily recognisable companies and products which we use everyday.</p>
             </div>
             <div class="sponsor-slider wow bounceIn">
@@ -738,7 +739,7 @@
 
 
 <div class="g-maps" id="venue">
-   <h4>LOCATE US</h4>
+   <h4 class="myh4">LOCATE US</h4>
 <iframe class="map" id="map_canvas"
   width="100%"
   height="450"
@@ -772,6 +773,7 @@
       <script src="js/includes/subscribe.js"></script>
       <script src="js/includes/contact_form.js"></script>
       <script src="js/main.js"></script>
+      
 
       <!-- TRIANGLES -->
 
@@ -781,5 +783,12 @@
 		<script src="Triangles/assets/js/triangle_animation.js"></script>
 		<script src="Triangles/assets/js/triangle_config.js"></script>
 		<script src="Triangles/assets/js/triangle_main.js"></script>
+
+      <script>
+        var typed = new Typed('.element', {
+          stringsElement: '#typed-strings'
+        });
+      </script>
+
    </body>
 </html>
