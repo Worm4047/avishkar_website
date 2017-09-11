@@ -6,6 +6,18 @@
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 50px;
 }
+
+@media (max-width: 770px) {
+    .typedstrings{
+         font-size: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .typedstrings{
+         font-size: 30px;
+    }
+}
 .myh4{
     font-family: 'Bungee Shade', cursive;
 }
