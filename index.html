@@ -216,7 +216,7 @@
             </div>
             <div class="nav-center">
 				<div class="coming_soon">
-					SCHEDULING...
+					SCHEDULING<span id="dots" style="font-size:40px;position:absolute"></span>
 				</div>
             </div>
 <!--             <div class="nav-center">
@@ -731,6 +731,18 @@
       <script>
          var height = screen.height+"px";
          document.getElementById("mycont").style.height = height;
+      </script>
+	    <script>
+         var ele = document.getElementById("dots");
+         var count = 0;
+         setInterval(function(){
+            count++;
+            ele.innerHTML = ele.innerHTML+'.';
+            if(count==5){
+               ele.innerHTML = "";
+               count=0;
+            }
+         },500);
       </script>
    </body>
 </html>
