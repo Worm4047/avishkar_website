@@ -2,26 +2,52 @@
 <html lang="en">
    <head>
       <title>Avishakr </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <link rel="stylesheet" href="main.css" type="text/css" />
+      <!-- ../Triangles -->
+      <link href="../Triangles/assets/fonts/triangle_themify-icons.css" rel="stylesheet" type="text/css"/>
+      <link href="../Triangles/assets/css/triangle_style.css" rel="stylesheet" type="text/css"/>
+      <link href="../Triangles/assets/css/triangle_animation.css" rel="stylesheet" type="text/css"/>
+      <script src="../js/jquery.min.js"></script>
+      <style>
+      .footer{
+         width: 100%;
+         height: 150px;
+         background-color: rgba(0, 0, 0, 0.49);
 
-
+         }
+         .footer_text{
+            font-size: 18px;
+            color:white;
+            font-weight: 400;
+            line-height: 150px;
+         }
+         .team_heading{
+            font-size: 40px;
+            font-weight:500;
+            padding-top: 50px;
+         }
+      </style>
    </head>
    <body>
+      <div class="overlay"></div>
+      <div id="background-effect"></div>
+      <h2 class="team_heading">Meet Our Team</h2>
       <main>
-
+         
          <section class="about-landing">
             <section class="leadership" data-section="leadership">
                <a name="leadership"></a>
                <header>
-                  <h1>LEADERSHIP</h1>
-                  <p>We’re led by a team who constantly questions, tinkers, and challenges to unlock great creativity around every turn.</p>
+                  <h1 class="myh1">Faculty Coordinators</h1>
+                  <p>Description</p>
                </header>
                <div>
                   <section id="leaders-list" class="work-cards leaders-list ">
                      <ul>
                         <li>
                            <article>
-                              <a class="leader" >
+                              <a >
                                  <aside class=""></aside>
                                  <header>
                                     <div class="title">
@@ -48,7 +74,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-2">
+                              <a >
                                  <aside class="two-right "></aside>
                                  <header>
                                     <div class="title">
@@ -75,7 +101,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-3">
+                              <a>
                                  <aside class="three-right "></aside>
                                  <header>
                                     <div class="title">
@@ -103,7 +129,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-4">
+                              <a >
                                  <aside class="four-right two-right "></aside>
                                  <header>
                                     <div class="title">
@@ -130,7 +156,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-5">
+                              <a>
                                  <aside class=""></aside>
                                  <header>
                                     <div class="title">
@@ -157,7 +183,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-6">
+                              <a>
                                  <aside class="three-right two-right "></aside>
                                  <header>
                                     <div class="title">
@@ -184,7 +210,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-7">
+                              <a>
                                  <aside class=""></aside>
                                  <header>
                                     <div class="title">
@@ -211,7 +237,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-8">
+                              <a>
                                  <aside class="four-right two-right "></aside>
                                  <header>
                                     <div class="title">
@@ -238,7 +264,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-9">
+                              <a >
                                  <aside class="three-right four-bottom two-bottom four-left "></aside>
                                  <header>
                                     <div class="title">
@@ -265,7 +291,7 @@
                         </li>
                         <li>
                            <article>
-                              <a class="leader" href="#leader-10">
+                              <a>
                                  <aside class="two-right four-bottom three-bottom two-bottom three-left last "></aside>
                                  <header>
                                     <div class="title">
@@ -294,9 +320,388 @@
                   </section>
                </div>
             </section>
+         </section>
+         <section class="about-landing">
+            <section class="leadership" data-section="leadership">
+               <a name="leadership"></a>
+               <header>
+                  <h1 class="myh1">Festival Secretaries</h1>
+               </header>
+               <div>
+                  <section id="leaders-list" class="work-cards leaders-list ">
+                     <ul>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class=""></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Anupam Mishra </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Anupam Mishra </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/anupam.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/anupam.jpg" alt="Anupam" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class="two-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Dhawal Patel </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Dhawal Patel </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/dhawal.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/dhawal.jpg" alt="Dhawal" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a>
+                                 <aside class="three-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Karan Mishra </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Karan Mishra </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/karan.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/karan.jpg" alt="Karan" />
+                                       </picture>
+                                    </div>
 
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class="four-right two-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Kavya Paliwal </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Kavya Paliwal </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/kavya.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/kavya.jpg" alt="Kavya" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a>
+                                 <aside class=""></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Puneet Tiwari </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Puneet Tiwari </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/puneet.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/puneet.jpg" alt="Puneet" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a>
+                                 <aside class="three-right two-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Shivanjali Sharma </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Shivanjali Sharma </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/shivanjali.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/shivanjali.jpg" alt="Shivanjali" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a>
+                                 <aside class=""></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Shivam Singh </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Shivam Singh </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/fs/shivam.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/fs/shivam.jpg" alt="Shivam" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+            </section>
+         </section>
+         <section class="about-landing">
+            <section class="leadership" data-section="leadership">
+               <a name="leadership"></a>
+               <header>
+                  <h1 class="myh1"> Web Team </h1>
+                  <p></p>
+               </header>
+               <div>
+                  <section id="leaders-list" class="work-cards leaders-list ">
+                     <ul>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class=""></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Abhishek Chaudhary </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Abhishek Chaudhary </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/web/abhishek.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/web/abhishek.jpg" alt="Abhishek" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class="two-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Anshul Singh </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Anshul Singh </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/web/anshul.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/web/anshul.jpg" alt="Anshul Singh" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a>
+                                 <aside class="three-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Harshit Shah </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Harshit Shah </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/web/harshit.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/web/harshit.jpg" alt="Harshit" />
+                                       </picture>
+                                    </div>
+
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class="four-right two-right "></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Urjit Patel </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Urjit Patel </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/web/urjit.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/web/urjit.jpg" alt="Urjit" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+            </section>
+         </section>
+         <section class="about-landing">
+            <section class="leadership" data-section="leadership">
+               <a name="leadership"></a>
+               <header>
+                  <h1 class="myh1"> Design Team </h1>
+                  <p></p>
+               </header>
+               <div>
+                  <section id="leaders-list" class="work-cards leaders-list ">
+                     <ul>
+                        <li>
+                           <article>
+                              <a >
+                                 <aside class=""></aside>
+                                 <header>
+                                    <div class="title">
+                                       <strong> Mohammed Asad </strong><br>
+                                       <span></span>
+                                    </div>
+                                    <div class="blurb">
+                                       <strong> Mohammed Asad </strong><br>
+                                       <span></span>
+                                    </div>
+                                 </header>
+                                 <div class="content">
+                                    <div class="image">
+                                       <picture>
+                                          <source srcset="img/web/asad.jpg 1x,
+                                             "
+                                             media="(min-width: 0px)" />
+                                          <img srcset="img/web/asad.jpg" alt="Abhishek" />
+                                       </picture>
+                                    </div>
+                                 </div>
+                              </a>
+                           </article>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+            </section>
          </section>
       </main>
+          <div class="footer">
+      <p class="footer_text">All Rights Reserved &copy; MNNIT Allahabad, 2017</p>
+    </div>
+      <!-- ../Triangles -->
+      <script src="../Triangles/assets/js/triangle_bootstrap.min.js"></script>
+      <script src="../Triangles/assets/js/triangle_smoothscroll.js"></script>
+      <script src="../Triangles/assets/js/triangle_loader.js"></script>
+      <script src="../Triangles/assets/js/triangle_animation.js"></script>
+      <script src="../Triangles/assets/js/triangle_config.js"></script>
+      <script src="../Triangles/assets/js/triangle_main.js"></script>
       <script type="text/javascript" src="main.js"></script>
    </body>
 </html>
