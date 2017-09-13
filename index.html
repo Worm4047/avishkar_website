@@ -42,9 +42,7 @@
             font-weight: 700;
          }
          section{
-         margin-top: 40px;
-         margin-bottom: 40px;
-         padding: 40px;
+           padding: 30px;
          }
          .white_section{
             background: url('images/highlight.jpg');
@@ -88,11 +86,33 @@
 
       </style>
    </head>
-   <body>
+   <body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
       	<div class="overlay"></div>
       	<div id="background-effect"></div>
 
-	
+	<nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-hidden">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#"><img src="images/event-logo-dark.png" alt="Gather"> </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#top">Home</a></li>
+                  <li><a href="#speakers">Speakers</a></li>
+                  <li><a href="#schedule">Schedule</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#sponsors" class="hidden-sm">Sponsors</a></li>
+                  <li><a href="#venue" class="hidden-sm">Venue</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
       <div class="container-fluid" id="mycont">
          <!-- ROW -->
          <div class="row">
@@ -127,11 +147,42 @@
             <!-- /MAIN SECTION -->
 
          </div>
-         <!-- ./ROW --> 
+         <!-- ./ROW -->
+         <div class="bottom-left">  
+               <p id="bottom-left-p"><a href="#">Events <span class="glyphicon glyphicon-list-alt"></span></a></p>
+         </div> 
+         <div class="bottom-right">
+            <p id="bottom-right-p"><a href="./Team/index.html" target="_blank"><span class="glyphicon glyphicon-user"></span> Team</a></p>
+         </div> 
       </div>
+
+
+
       <section class="highlight white_section">
          <div class="container">
-            <p class="lead text-center" style="color:#3f3f3f;">Gather is a responsive website template for events, conferences, meetups, webinars etc. This template can be used of all type of gatherings. It has many features specifically designed for events like RSVP, Eventbrite Integration, Subscribe and contact. it also comes with different color versions to choose.</p>
+            <h6 class="countdown_title text-center"><center><i><b>"Ideation without execution is just delusion"</b></i></center></h6>
+            <p class="lead mainpara">
+
+MNNIT Allahabad welcomes you all to “Ideate, Innovate, Create” in its techfest-Avishkar 2017.<br>
+
+The time has come to unleash your ignited minds, bring out the scientist in you and create new innovations using your ideas.
+Its time, friends!!- Time to learn new things,to create things you wish existed, to compete, to grab the prizes and to conquest the events.<br>
+Just grab the chance-<br>
+Chance to rule the world of computers in <font style="color:#EF5350;font-size: 20px;">CYBERQUEST</font>.<br>
+Chance to entangle your ideas with the wires in <font style="color:#1E88E5;font-size: 20px;">ELECTROMANIA.</font><br>
+Chance to feel the current run through the veins of your innovations in <font style="color:#1B5E20;font-size: 20px;">POWER SURGE</font>. <br>
+Chance to build the foundation for your future in <font style="color:#FFA000;font-size: 20px;">NIRMAN</font>.<br>
+Chance to drive towards your dreams in <font style="color:#5D4037;font-size: 20px;">MECHROCOSM</font>.<br>
+Chance to feel the aura of chemicals in <font style="color:#311B92;font-size: 20px;">RASAYANS</font>.<br>
+Chance to go to the genes of your discoveries in <font style="color:#C51162;font-size: 20px;">GENESIS</font>.<br>
+Chance to mobilize the enthusiasm in you in <font style="color:#004D40;font-size: 20px;">ROBOTICS</font>.<br>
+Chance to soar high in the dream sky of yours in <font style="color:#D50000;font-size: 20px;">AEROMODELLING</font>.<br>
+Chance to explore the fun side of your personality in <font style="color:#42A5F5;font-size: 20px;">OLIGOPOLY</font>.<br>
+Avishkar is not only for those ‘technoholics’ because Gonosomania awaits to captivate you with its quizzes and gnotalks.
+<br><br> Gnotalks, a talk show with the motto "Where Actions Speak" where speakers from various fields will be present not to just speak but to interact with the audience.<br>
+
+ 
+With an immense amount of exciting events waiting for you on the way, tighten your seatbelts and get ready for an amazing ride and unleash your talent.</p>
             <div class="countdown_wrap">
                <h6 class="countdown_title text-center">EVENT WILL START IN</h6>
                <ul id="countdown" data-event-date="11 october 2017 00:00:00">
@@ -158,53 +209,43 @@
       <section class="speakers" id="speakers">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4 class="myh4">OUR SPEAKERS</h4>
+               <h4 class="myh4">PAST SPEAKERS</h4>
             </div>
             <div class="speaker-slider">
                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                  <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
-                  <p>George Burton</p>
-                  <span>Flow Interactive</span>
+                  <img src="images/past_speakers/rajatkapoor.JPG" alt="avatar" class="img-responsive center-block">
+                  <p>Rajat Kapoor</p>
+                  <span>Actor</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                  <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
-                  <p>Louis Castillo</p>
-                  <span>Foursquare</span>
+                  <img src="images/past_speakers/chetanbhagat.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Chetan Bhagat</p>
+                  <span>Writer</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                  <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
-                  <p>Jamie Hefford</p>
-                  <span>Consultant</span>
+                  <img src="images/past_speakers/sumeet.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Sumeet Vyas</p>
+                  <span>Actor</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0.3s">
-                  <img src="images/avatar_4.png" alt="avatar" class="img-responsive center-block">
-                  <p>Cody Nesbit</p>
-                  <span>Washington post</span>
+                  <img src="images/past_speakers/nitishbharti.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Nitish Bharti</p>
+                  <span>Artist</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0.4s">
-                  <img src="images/avatar_5.png" alt="avatar" class="img-responsive center-block">
-                  <p>Carol Wood</p>
-                  <span>Etsy.com</span>
+                  <img src="images/past_speakers/rahulram.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Rahul Ram</p>
+                  <span>Musicist</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0.5s">
-                  <img src="images/avatar_6.png" alt="avatar" class="img-responsive center-block">
-                  <p>David Lindhold</p>
-                  <span>Happy Cog</span>
+                  <img src="images/past_speakers/shivkhera.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Shiv Khera</p>
+                  <span>Author</span>
                </div>
                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                  <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
-                  <p>George Burton</p>
-                  <span>Flow Interactive</span>
-               </div>
-               <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                  <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
-                  <p>Louis Castillo</p>
-                  <span>Foursquare</span>
-               </div>
-               <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                  <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
-                  <p>Jamie Hefford</p>
-                  <span>Consultant</span>
+                  <img src="images/past_speakers/pawan.jpg" alt="avatar" class="img-responsive center-block">
+                  <p>Pawan Agrawal</p>
+                  <span>CEO (Dabbawalla's)</span>
                </div>
             </div>
          </div>
@@ -526,26 +567,35 @@
                   <div class="popup-gallery">
                      <div class="row">
                         <div class="col-md-6">
-                           <a href="images/gallery_1.jpg" title><img src="images/gallery_1.jpg" alt="gallery image" class="img-responsive wow fadeIn"></a>
+                           <a href="images/lastyr/3.jpg" title><img src="images/lastyr/3.jpg" alt="gallery image" class="img-responsive wow fadeIn"></a>
                         </div>
                         <div class="col-md-6">
                            <div class="row">
                               <div class="col-sm-6">
-                                 <a href="images/gallery_2.jpg" title><img src="images/gallery_2.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.2s"></a>
+                                 <a href="images/lastyr/1.jpg" title><img src="images/lastyr/1.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.2s"></a>
                               </div>
                               <div class="col-sm-6">
-                                 <a href="images/gallery_3.jpg" title><img src="images/gallery_3.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.2s"></a>
+                                 <a href="images/lastyr/2.jpg" title><img src="images/lastyr/2.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.2s"></a>
                               </div>
                            </div>
                            <div class="row">
                               <div class="col-sm-6">
-                                 <a href="images/gallery_4.jpg" title><img src="images/gallery_4.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
+                                 <a href="images/lastyr/6.jpg" title><img src="images/lastyr/6.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
                               </div>
                               <div class="col-sm-6">
-                                 <a href="images/gallery_5.jpg" title><img src="images/gallery_5.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
+                                 <a href="images/lastyr/5.jpg" title><img src="images/lastyr/5.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6">
+                                 <a href="images/lastyr/7.jpg" title><img src="images/lastyr/7.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
+                              </div>
+                              <div class="col-sm-6">
+                                 <a href="images/lastyr/8.jpg" title><img src="images/lastyr/8.jpg" alt="gallery image" class="img-responsive wow fadeIn" data-wow-delay="0.4s"></a>
                               </div>
                            </div>
                         </div>
+
                      </div>
                   </div>
                </div>
@@ -674,11 +724,11 @@
       <section class="sponsors" id="sponsors">
          <div class="container">
             <div class="section-title wow fadeInUp">
-               <h4 class="myh4">OUR SPONSORS</h4>
+               <h4 class="myh4">PAST SPONSORS</h4>
                <p>Event is supported by easily recognisable companies and products which we use everyday.</p>
             </div>
-            <div class="sponsor-slider wow bounceIn">
-               <div><img src="images/sponsor_1.png" class="img-responsive center-block" alt="sponsor"> </div>
+            <!--<div class="sponsor-slider wow bounceIn">
+               <div><img src="images/past_sponsors/pepsi.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_2.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_3.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_4.png" class="img-responsive center-block" alt="sponsor"> </div>
@@ -686,11 +736,36 @@
                <div><img src="images/sponsor_2.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_3.png" class="img-responsive center-block" alt="sponsor"> </div>
                <div><img src="images/sponsor_4.png" class="img-responsive center-block" alt="sponsor"> </div>
+            </div>-->
+            <div class="row">
+               <div class="col-md-3">
+                  <img src="images/past_sponsors/pepsi.png" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+               <div class="col-md-3" class="sponsors_div">
+                  <img src="images/past_sponsors/sbi.jpg" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+               <div class="col-md-3" class="sponsors_div">
+                  <img src="images/past_sponsors/vijaya.jpg" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+               <div class="col-md-3" class="sponsors_div">
+                  <img src="images/past_sponsors/sonata.jpg" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+            </div>
+            <div class="row" style="margin-top:50px">
+               <div class="col-md-3 col-md-offset-1" class="sponsors_div">
+                  <img src="images/past_sponsors/madeeasy.jpg" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+               <div class="col-md-3" class="sponsors_div">
+                  <img src="images/past_sponsors/dell_2016_logo.png" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
+               <div class="col-md-3" class="sponsors_div">
+                  <img src="images/past_sponsors/bikanerwala.jpg" class="img-responsive center-block sponsors_img" alt="sponsor">
+               </div>
             </div>
          </div>
       </section>
       <section>
-         <div class="g-maps" id="venue">
+         <div class="g-maps" id="venue" style="padding: 40px;">
             <h4 class="myh4">LOCATE US</h4>
             <iframe class="map" id="map_canvas"
                width="100%"
@@ -702,7 +777,7 @@
          </div>
       </section>
     <div class="footer">
-		<p class="footer_text">All Rights Reserved &copy; MNNIT Allahabad, 2017</p>
+		<p class="footer_text" style="margin-bottom: 0">All Rights Reserved &copy; MNNIT Allahabad, 2017</p>
     </div>
       <script>!function(e,t,r,n,c,h,o){function a(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return r}try{for(c=e.getElementsByTagName('a'),o='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(h=c[n]).href.indexOf(o))>-1&&(h.href='mailto:'+a(h.href,t+o.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(h=c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'),0)),h)}catch(e){}}catch(e){}}(document);</script>
       <script src="js/bootstrap.min.js"></script>
@@ -729,7 +804,7 @@
          });
       </script>
       <script>
-         var height = screen.height+"px";
+         var height = (screen.height-100)+"px";
          document.getElementById("mycont").style.height = height;
       </script>
 	    <script>
