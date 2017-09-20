@@ -683,11 +683,11 @@
 			.logo
 			{
 				margin: 0 auto;
-				margin-bottom: 20px;
 			}
 			.logo img 
 			{
-				width: 220px;
+				width: 250px;
+				
 			}
 
 		/**	SLIDER			
@@ -695,8 +695,8 @@
 
 			#slider, .carousel-inner
 			{
-				height: 180px;
-				max-width: 450px;
+				height: 75px;
+				max-width: 650px;
 				margin: 0 auto;
 			}
 			
