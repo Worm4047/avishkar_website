@@ -5,6 +5,7 @@
 .typedstrings{
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 37px;
+    min-height:70px;
 }
 
 @media (max-width: 770px) {
